@@ -1,8 +1,8 @@
 node {
-        def majorVersion="3.0.${BUILD_NUMBER}"
+        def majorVersion="1.0.${BUILD_NUMBER}"
 	currentBuild.displayName = majorVersion
 
-	//currentBuild.displayName = "3.0.${BUILD_NUMBER}"
+	//currentBuild.displayName = "1.0.${BUILD_NUMBER}"
 	def GIT_COMMIT
   stage ('cloning the repository'){
 	  
